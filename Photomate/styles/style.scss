@@ -1,0 +1,40 @@
+@import "./variable";
+
+header{
+    display: flex;
+    align-items: center;
+    h1{
+        font-size: 25px;
+        font-family: 'Pacifico', cursive;
+        color: $primaryColor;
+    }
+    #newpost{
+        height: 30px;
+    }
+}
+
+#main{
+    #topContent{
+        h2{
+            font-family: 'Raleway', sans-serif;
+            font-size: 30px;
+            color: $secondaryColor;
+        }
+        h3{
+            font-size: 13px;
+            font-family: 'Roboto', sans-serif;
+            color: $secondaryColor;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+nav{
+    #home{
+        height: 45px;
+    }
+    #friends{
+        height: 45px;
+    }
+}

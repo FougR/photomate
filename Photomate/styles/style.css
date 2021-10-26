@@ -1,0 +1,46 @@
+/*Color*/
+/*Font Family*/
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  font-size: 25px;
+  font-family: 'Pacifico', cursive;
+  color: #9F53EC;
+}
+
+header #newpost {
+  height: 30px;
+}
+
+#main #topContent h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #5354EC;
+}
+
+#main #topContent h3 {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  color: #5354EC;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav #home {
+  height: 45px;
+}
+
+nav #friends {
+  height: 45px;
+}
+/*# sourceMappingURL=style.css.map */
